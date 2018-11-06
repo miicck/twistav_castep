@@ -153,7 +153,7 @@ for ncell in range(1, max_cells+1):
 	for twist_i in range(0,len(kvs)):
 
 		# Print header
-		twist_header="Running twist "+str(twist_i+1)+"/"+len(kvs)+ " ("+str(len(kvs[twist_i][1]))+" kpoint(s))"
+		twist_header="Running twist "+str(twist_i+1)+"/"+str(len(kvs))+ " ("+str(len(kvs[twist_i][1]))+" kpoint(s))"
 		twist_sep = ""
 		for tsi in range(0, len(twist_header)):
 			twist_sep += "-"
